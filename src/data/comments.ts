@@ -1,4 +1,6 @@
-export type CommentType = {
+import { Store } from 'pullstate'
+
+type CommentType = {
   username: string;
   userImagePath: string;
   commentText: string;
